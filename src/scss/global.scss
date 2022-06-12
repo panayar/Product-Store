@@ -1,0 +1,29 @@
+// typografy
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #EBEBEB;
+}
+
+
+// Colors
+$primary-color: #3483FA;
+$secondary-color: #757575;
+
+
+// Texts sizes
+$txt-lg : 1.2rem;
+$txt-md : 1rem;
+$txt-sm : 0.8rem;
+$txt-xs : 0.6rem;
+$txt-xxs : 0.4rem;
+
+

@@ -1,0 +1,38 @@
+.cart-product-container {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    border-bottom: 1px solid #8a8a8ab6;
+}
+
+
+
+.cart-product__image {
+
+    & img {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+}
+
+
+.cart-product__title {
+    & p {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
+
+.cart-product__price {
+    & p {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+    }
+}

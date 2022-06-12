@@ -1,0 +1,30 @@
+@import "../global.scss";
+
+.home-container {
+    width: 80%;
+    height: auto;
+    margin-top: 2% !important;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+
+.home-categories {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 25px;
+
+    & select {
+        width: 100%;
+        border: none;
+        border-radius: 14px;
+        padding: 8px;
+        font-size: 18px;
+        color: black;
+        background-color: #FBF9F9;
+
+        &:focus {
+            outline: none;
+        }
+    }
+}
