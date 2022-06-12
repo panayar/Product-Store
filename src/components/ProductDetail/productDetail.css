@@ -72,7 +72,10 @@ body {
   background-color: #30E257;
   border-radius: 15px;
   height: 35px;
-  width: 200px;
+  width: 70%;
+  word-wrap: break-word !important;
+  height: auto;
+  padding: 5px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -87,5 +90,17 @@ body {
   width: 15px;
   height: 15px;
   margin-left: 5px;
+}
+
+@media (max-width: 594px) {
+  .product-detail-container {
+    width: 100%;
+  }
+  .product-detail__image {
+    width: 100% !important;
+  }
+  .product-detail__info {
+    width: 100% !important;
+  }
 }
 /*# sourceMappingURL=productDetail.css.map */

@@ -119,6 +119,31 @@ body {
   font-size: 12px;
 }
 
+@media (max-width: 768px) {
+  .navbar-container {
+    width: 100%;
+  }
+  .navbar-content {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .navbar-logo {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .navbar-search-bar {
+    display: none;
+  }
+  .navbar-shopping-cart {
+    width: 100%;
+  }
+  .navbar-shopping-cart img {
+    text-align: right;
+    margin-left: 0px;
+  }
+}
+
 .disabled {
   display: none;
 }

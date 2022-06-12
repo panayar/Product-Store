@@ -41,6 +41,7 @@
 
 .navbar-search-bar {
     width: 60%;
+
     & input {
         width: 100%;
         height: 40px;
@@ -58,7 +59,7 @@
             background-color: #e6e6e6;
         }
 
-    } 
+    }
 
 }
 
@@ -93,9 +94,39 @@
         color: white;
         font-weight: 600;
         font-size: 12px;
-      
+
     }
 }
+
+@media (max-width: 768px) {
+    .navbar-container {
+        width: 100%;
+    }
+
+    .navbar-content {
+            justify-content: space-between;
+    }
+
+    .navbar-logo {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .navbar-search-bar {
+        display: none;
+    }
+
+    .navbar-shopping-cart {
+        width: 100%;
+        & img {
+            text-align: right;
+            margin-left: 0px;
+        }
+    }
+}
+
+
+
 
 
 .disabled {
